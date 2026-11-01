@@ -1,0 +1,12 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+const api='https://act-api-takumi-static.mihoyo.com/content_v2_user/app/1963de8dc19e461c/getContentList?iChanId=253&iPageSize=200&iPage=1&sLangKey=zh-cn';
+const root=new URL('../../素材与下一版设计/星铁新增八人/',import.meta.url);
+await mkdir(root,{recursive:true});
+const response=await fetch(api,{signal:AbortSignal.timeout(30000)});
+if(!response.ok)throw Error('Official API HTTP '+response.status);
+const data=await response.json();
+await writeFile(new URL('official-api.json',root),JSON.stringify(data,null,2));
+const targets=['三月七','丹恒','希儿','娜塔莎','克拉拉','银狼','阮梅','流萤'];
+const normalize=s=>s.replace(/[·•・\s]/g,'');
+const rows=data.data.list.filter(row=>targets.includes(normalize(row.sTitle)));
+console.log(JSON.stringify(rows.map(row=>({title:row.sTitle,rowKeys:Object.keys(row),ext:JSON.parse(row.sExt)})),null,2));

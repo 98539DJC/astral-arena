@@ -1,0 +1,271 @@
+{
+  "copyright": "miHoYo / HoYoverse",
+  "sourcePage": "https://sr.mihoyo.com/main?nav=character",
+  "conversion": "PNG to WebP for browser delivery; original dimensions and alpha retained; original PNG files are preserved outside the runtime assets.",
+  "assets": [
+    {
+      "key": "nova",
+      "name": "姬子",
+      "variant": "splash",
+      "file": "nova-splash.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/db603205e1dc5a4252527be4cd95f2df_8027692243678107578.png",
+      "width": 1609,
+      "height": 1440,
+      "bytes": 280722,
+      "sha256": "161b4be997f19e786a3e4bd8c3b778c1213e7ab6c3ee2183a684aba5187e9498"
+    },
+    {
+      "key": "nova",
+      "name": "姬子",
+      "variant": "portrait",
+      "file": "nova-portrait.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/ec6db1a0d1aa33ec115a8a274de59188_1376508771982942841.png",
+      "width": 750,
+      "height": 1410,
+      "bytes": 178054,
+      "sha256": "af3a14b1f29adc1fd356d7cf6ae5b64361c0038d91486cd0aa2af33efda26367"
+    },
+    {
+      "key": "nova",
+      "name": "姬子",
+      "variant": "avatar",
+      "file": "nova-avatar.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2022/09/14/de638b305b706852dc8aacad03c52333_8243152851185096811.png",
+      "width": 116,
+      "height": 116,
+      "bytes": 7608,
+      "sha256": "5a405614615d0a7793842f67a4c3d51d4ff98938dfc32b4154030219f74ee1e6"
+    },
+    {
+      "key": "aegis",
+      "name": "杰帕德",
+      "variant": "splash",
+      "file": "aegis-splash.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/8b33f4fcf873da521d9214abd0601b13_6442016993338433146.png",
+      "width": 1609,
+      "height": 1440,
+      "bytes": 195570,
+      "sha256": "0e0435f0614fb54c65bde1718f842c5278328e45cbe75f3b92bc678bb64e5edc"
+    },
+    {
+      "key": "aegis",
+      "name": "杰帕德",
+      "variant": "portrait",
+      "file": "aegis-portrait.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/7a3e0049afadd7061571a26289ea5b5d_8055550909689337810.png",
+      "width": 750,
+      "height": 1410,
+      "bytes": 156766,
+      "sha256": "56ad6bc53666f4fa434dda15a4759317367ca2712b52bc479eb7c2e861978bf7"
+    },
+    {
+      "key": "aegis",
+      "name": "杰帕德",
+      "variant": "avatar",
+      "file": "aegis-avatar.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2022/09/14/04bf0ba002e2be977ce71315cc511d9c_6346783315233547188.png",
+      "width": 116,
+      "height": 116,
+      "bytes": 7584,
+      "sha256": "aef29afe325f74fea6430dee10a2c81759aa44625a66e6dab290cec7666f6585"
+    },
+    {
+      "key": "lumen",
+      "name": "藿藿",
+      "variant": "splash",
+      "file": "lumen-splash.webp",
+      "sourceUrl": "https://fastcdn.mihoyo.com/content-v2/hkrpg/113384/eb05068bcb2fcce70b5bc26958876ed8_8587262069659080939.png",
+      "width": 1609,
+      "height": 1440,
+      "bytes": 253414,
+      "sha256": "c354a81a2b37885af4220206b29fdc999ead0693ba6ca57c8032449e481ff3a7"
+    },
+    {
+      "key": "lumen",
+      "name": "藿藿",
+      "variant": "portrait",
+      "file": "lumen-portrait.webp",
+      "sourceUrl": "https://fastcdn.mihoyo.com/content-v2/hkrpg/113384/8eb692ca6883fd4ff03d1c5928ac9bba_3442196879708314580.png",
+      "width": 750,
+      "height": 1410,
+      "bytes": 141804,
+      "sha256": "1902a625cc7793840c5d27ff79a1ee8721b24285acee933754efdf0cb5dc6417"
+    },
+    {
+      "key": "lumen",
+      "name": "藿藿",
+      "variant": "avatar",
+      "file": "lumen-avatar.webp",
+      "sourceUrl": "https://fastcdn.mihoyo.com/content-v2/hkrpg/113384/ccf37c8cd411e5d376970f3f0c7c40eb_5316501496551239238.png",
+      "width": 232,
+      "height": 232,
+      "bytes": 20264,
+      "sha256": "55ea92c606866a30c9666aca9aab06adacd8a203ad33b22620cce72fa12db5cd"
+    },
+    {
+      "key": "volt",
+      "name": "景元",
+      "variant": "splash",
+      "file": "volt-splash.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/170747ae927468b38ce55dadf3f66e21_2962069803092832486.png",
+      "width": 1609,
+      "height": 1440,
+      "bytes": 257510,
+      "sha256": "db3e8c4b08ba50a304ca993a82957a3e9203302e127360b27b5c99f81ba0fcbe"
+    },
+    {
+      "key": "volt",
+      "name": "景元",
+      "variant": "portrait",
+      "file": "volt-portrait.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/088b69a1b22d3f95bc808c019d77b84c_458251085178804578.png",
+      "width": 750,
+      "height": 1410,
+      "bytes": 192320,
+      "sha256": "b2e2198284b3a0ce9ce7d694ff15f878df1c9835a9d10222cd61ec36a8d9afb4"
+    },
+    {
+      "key": "volt",
+      "name": "景元",
+      "variant": "avatar",
+      "file": "volt-avatar.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2022/09/14/cf5fcc0d92c18ee789f4f8356c588edf_5908328713944000843.png",
+      "width": 116,
+      "height": 116,
+      "bytes": 7518,
+      "sha256": "b9d8d48045b2d4e4e450208bbfe09535a8bf9b269f06ffbd3f02ff405cd4384c"
+    },
+    {
+      "key": "tempo",
+      "name": "布洛妮娅",
+      "variant": "splash",
+      "file": "tempo-splash.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/79f7c2e15f5e15b1ccd99aabf0059b0f_5352672486640039964.png",
+      "width": 1609,
+      "height": 1440,
+      "bytes": 351498,
+      "sha256": "7c504dd54c20ab06a9624d0a47d92eeeb9b349bc988a1d922fd340fde4fc13a8"
+    },
+    {
+      "key": "tempo",
+      "name": "布洛妮娅",
+      "variant": "portrait",
+      "file": "tempo-portrait.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/e730b8342d2ce40fafe9ef4f4a1c5a9f_2807211120737640260.png",
+      "width": 750,
+      "height": 1410,
+      "bytes": 260696,
+      "sha256": "6a8f28ff4b76ddd70270f66b8765c24b45e3ca14d79cf15daee8abc74546ff30"
+    },
+    {
+      "key": "tempo",
+      "name": "布洛妮娅",
+      "variant": "avatar",
+      "file": "tempo-avatar.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2022/09/14/56de30d7ccac66247eccdc5dabf0d9fc_7354572897529290954.png",
+      "width": 116,
+      "height": 116,
+      "bytes": 7682,
+      "sha256": "65f12d19fa7ac2bd19476b8a800daa58ad77dd4958ae78753c4cc780a9093b42"
+    },
+    {
+      "key": "hex",
+      "name": "卡芙卡",
+      "variant": "splash",
+      "file": "hex-splash.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/df3140700802300d7cd1bae7ddb93391_7866142853823486156.png",
+      "width": 1609,
+      "height": 1440,
+      "bytes": 235140,
+      "sha256": "e76fde313afa38c3676cda95e6954f6f6adc4119af9d279a2e2f5983813147b6"
+    },
+    {
+      "key": "hex",
+      "name": "卡芙卡",
+      "variant": "portrait",
+      "file": "hex-portrait.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/2fc28da37d30aac884f0213eeb0d1a6d_4978506118476542993.png",
+      "width": 750,
+      "height": 1410,
+      "bytes": 129900,
+      "sha256": "64a5cd32354123940dabe31ef61bd7343347e91b320daadb2a13d2c6a87fd52a"
+    },
+    {
+      "key": "hex",
+      "name": "卡芙卡",
+      "variant": "avatar",
+      "file": "hex-avatar.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2022/09/14/63201dab804cdd80c6c259e5f3df034d_1015235942753546049.png",
+      "width": 116,
+      "height": 116,
+      "bytes": 5780,
+      "sha256": "93d9451647c14fb348b0fcbd69e614d794c2a0db4b7c95f67142d24e15060686"
+    },
+    {
+      "key": "frost",
+      "name": "彦卿",
+      "variant": "splash",
+      "file": "frost-splash.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/0be1a1362e0ecab6a422549d2a451d04_5642648625307010644.png",
+      "width": 1609,
+      "height": 1440,
+      "bytes": 279802,
+      "sha256": "5a36e106e943408d4a46f908b4ef75228c9b894e26d0e13914c7334b7255f270"
+    },
+    {
+      "key": "frost",
+      "name": "彦卿",
+      "variant": "portrait",
+      "file": "frost-portrait.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/a136e877f4deb6f5919d22f22558c6f4_5428150978372315536.png",
+      "width": 750,
+      "height": 1410,
+      "bytes": 198228,
+      "sha256": "938f2a1e9e86c0d54feaefbc8107f0452b0b44e200eec1f08616cf7c0573c85a"
+    },
+    {
+      "key": "frost",
+      "name": "彦卿",
+      "variant": "avatar",
+      "file": "frost-avatar.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/01/13/1eee10d5bb4ebd0a82b6bf40ec43931d_7239498625122521124.png",
+      "width": 232,
+      "height": 232,
+      "bytes": 21268,
+      "sha256": "2026c7720dfc92b1ccc551bb6fe1eea4388063c80de99445980104dd58f345f2"
+    },
+    {
+      "key": "reaper",
+      "name": "艾丝妲",
+      "variant": "splash",
+      "file": "reaper-splash.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/670deaf911c54ab43dd45db789251e90_8942574647496262922.png",
+      "width": 1609,
+      "height": 1440,
+      "bytes": 218288,
+      "sha256": "e71b5ecc2467a6422bcf774b95bb8c4b2a84fbc9666c29b379c3b42a572c4403"
+    },
+    {
+      "key": "reaper",
+      "name": "艾丝妲",
+      "variant": "portrait",
+      "file": "reaper-portrait.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2023/05/30/66deff37ada32706452b4c8bc31da874_2748605094160546423.png",
+      "width": 750,
+      "height": 1410,
+      "bytes": 141216,
+      "sha256": "e822709826e2238464175f674c5d85276aadf53eb2efb7bd5e5d0e77de2d9854"
+    },
+    {
+      "key": "reaper",
+      "name": "艾丝妲",
+      "variant": "avatar",
+      "file": "reaper-avatar.webp",
+      "sourceUrl": "https://webstatic.mihoyo.com/upload/op-public/2022/09/14/de1b5852838c8c74140392a01d6cfc19_7273112330946341467.png",
+      "width": 116,
+      "height": 116,
+      "bytes": 6902,
+      "sha256": "ec2b4b64c919a4fa14518631733a8e2cb0b2d6103606963025c2b9baecc70b17"
+    }
+  ]
+}

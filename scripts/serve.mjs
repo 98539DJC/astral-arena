@@ -1,0 +1,14 @@
+import {createD1} from './sqlite-d1.mjs';
+import {createServer} from 'node:http';
+import {DatabaseSync} from 'node:sqlite';
+import {readFileSync,mkdirSync} from 'node:fs';
+import worker from '../dist/server/index.js';
+const port=Number(process.env.PORT||4173);
+mkdirSync(new URL('../.openai/',import.meta.url),{recursive:true});
+const db=new DatabaseSync(process.env.ARENA_PREVIEW_DB||new URL('../.openai/preview.sqlite',import.meta.url));
+if(!db.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='arena_rooms'").get()) db.exec(readFileSync(new URL('../drizzle/0000_arena.sql',import.meta.url),'utf8'));
+if(!db.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='arena_profiles'").get()) db.exec(readFileSync(new URL('../drizzle/0001_collection.sql',import.meta.url),'utf8'));
+if(!db.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='arena_accounts'").get()) db.exec(readFileSync(new URL('../drizzle/0002_accounts.sql',import.meta.url),'utf8'));
+if(!db.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='arena_admins'").get())db.exec(readFileSync(new URL('../drizzle/0003_admin.sql',import.meta.url),'utf8'));
+const DB=createD1(db);
+createServer(async(req,res)=>{try{const chunks=[];for await(const chunk of req)chunks.push(chunk);const body=Buffer.concat(chunks);const request=new Request((req.headers['x-forwarded-proto']==='https'?'https':'http')+'://'+(req.headers.host||'127.0.0.1:'+port)+req.url,{method:req.method,headers:req.headers,...(body.length?{body}:{} )});const response=await worker.fetch(request,{DB,ARENA_ADMIN_BOOTSTRAP:process.env.ARENA_ADMIN_BOOTSTRAP});res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));}catch(e){res.writeHead(500);res.end(e.message);}}).listen(port,'0.0.0.0',()=>console.log('Astral Arena ready: http://127.0.0.1:'+port));
